@@ -1,1 +1,168 @@
 /* Stylesheet for Jumpstart */
+
+/* Universal */
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+.jumbotron-bike {
+  background-image:  url("../images/jumbotron-bike.jpg");
+}
+
+.jumbotron-beer {
+  background-image:  url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image:  url("../images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image:  url("../images/jumbotron-duffel.jpg");
+}
+
+/* Laptop and Desktop */
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  margin-top: 11.85rem;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+  .jumbotron p {
+    font-size: 125%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  .jumbotron h1 {
+    font-size: 3.7rem;
+  }
+  .jumbotron p {
+    font-size: 120%;
+  }
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.jumbotron {
+  color: white;
+  text-align: center;
+  height: 44rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+
+.feature-button {
+  position: relative;
+  top: -16rem;
+  margin-bottom: 11.85rem;
+  margin-top: 2.8rem;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.featured-project {
+  margin-top: -20rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  width: 100%;
+  transition: transform .5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.product-categories ul {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
+.product-categories h3 {
+  color: #399bd1;
+}
+
+/* Projects */
+.projects-container {
+  margin-bottom: 5.85rem;
+}
+
+/* Footer */
+.footer-help {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 5.2rem;
+}
+
+.footer-help strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.footer-help p {
+  max-width: 42rem;
+  margin-top: 1.4rem;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learn-button {
+  position: relative;
+  margin-top: 2.8rem;
+  margin-bottom: 5.2rem;
+  text-align: center;
+}

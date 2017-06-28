@@ -1,4 +1,4 @@
-# Project Title
+# Jumpstart
 
 This is a Codecademy project for Week 8: Jumpstart
 
